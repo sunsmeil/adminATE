@@ -9,12 +9,12 @@
 export default {
   data () {
     return {
-      msg: 'EHR'
+      msg: 'DSP'
     }
   }
 }
 </script>
-<style type="text/css">
+<style type="text/css" scoped>
 img{
 	width: 35px;
 	float: left;

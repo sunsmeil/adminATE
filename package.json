@@ -1,8 +1,7 @@
 {
-  "name": "heiheihei",
+  "name": "dsp",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "王卫新 <wangweixin@moxiu.net>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -11,6 +10,7 @@
     "build:prod": "NODE_ENV=production node build/build.js"
   },
   "dependencies": {
+    "element-ui": "^1.0.2",
     "node-sass": "^3.10.1",
     "sass-loader": "^4.0.2",
     "vue": "^2.0.1"

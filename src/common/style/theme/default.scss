@@ -1,0 +1,257 @@
+// color
+$primary-color: #4badf2;
+$success-color: #5edd9a;
+$danger-color: #ff4d4d;
+$warning-color: #ccc;
+$default-color: #bcc5cc;
+
+// default-sets
+$body-bg: #d6d6d6;
+$font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+$text-color: #666;
+$text-active-color: $primary-color;
+
+$font-size-base: 14px;
+$border-radius-base: 6px;
+$border-radius-sm: 4px;
+
+// LINK
+$link-color             : #2db7f5;
+// $link-hover-color       : tint(@link-color, 20%);
+// $link-active-color      : shade(@link-color, 5%);
+$link-hover-decoration  : none;
+
+$cursor-disabled        : not-allowed;
+
+// Animation
+// $ease-out            : cubic-bezier(0.215, 0.61, 0.355, 1);
+// $ease-in             : cubic-bezier(0.55, 0.055, 0.675, 0.19);
+// $ease-in-out         : cubic-bezier(0.645, 0.045, 0.355, 1);
+// $ease-out-back       : cubic-bezier(0.12, 0.4, 0.29, 1.46);
+// $ease-in-back        : cubic-bezier(0.71, -0.46, 0.88, 0.6);
+// $ease-in-out-back    : cubic-bezier(0.71, -0.46, 0.29, 1.46);
+// $ease-out-circ       : cubic-bezier(0.08, 0.82, 0.17, 1);
+// $ease-in-circ        : cubic-bezier(0.6, 0.04, 0.98, 0.34);
+// $ease-in-out-circ    : cubic-bezier(0.78, 0.14, 0.15, 0.86);
+// $ease-out-quint      : cubic-bezier(0.23, 1, 0.32, 1);
+// $ease-in-quint       : cubic-bezier(0.755, 0.05, 0.855, 0.06);
+// $ease-in-out-quint   : cubic-bezier(0.86, 0, 0.07, 1);
+
+// Border color
+// @border-color-base      : #d9d9d9;        
+// @border-color-split     : #e9e9e9;        
+
+// Shadow
+$shadow-color           : rgba(0,0,0,.15);
+// $box-shadow-base        : @shadow-1-down;
+// $shadow-1-up            : 0 -1px 6px @shadow-color;
+// $shadow-1-down          : 0 1px 6px @shadow-color;
+// $shadow-1-left          : -1px 0 6px @shadow-color;
+// $shadow-1-right         : 1px 0 6px @shadow-color;
+// $shadow-2               : 0 1px 8px @shadow-color;
+$box-shadow: 0 4px 7px $shadow-color ;
+
+// ----------------- Buttons -------------------
+$btn-group-border       : $primary-color;
+
+$btn-normal-color      : $primary-color;
+$btn-normal-bg         : #fff;
+$btn-normal-border-color		: #008aec;
+$btn-normal-active-color 		: #439ad9;
+
+$btn-primary-color      : #fff;
+$btn-primary-bg         : $primary-color;
+$btn-primary-border-color		: #008aec;
+$btn-primary-active-color 		: #439ad9;
+
+$btn-default-color      : #fff;
+$btn-default-bg         : $default-color;
+$btn-default-border-color       : #9facb6;
+$btn-default-active-color       : #a9b1b8;
+
+$btn-success-color      : #fff;
+$btn-success-bg		    : $success-color;
+$btn-success-border-color		    : #18ce6e;
+$btn-success-active-color		    : #56cc8d;
+
+$btn-danger-color       : #fff;
+$btn-danger-bg          : $danger-color;
+$btn-danger-border-color          : #ff0000;
+$btn-danger-active-color          : #e64545;
+
+$btn-disable-color      : #808080;
+$btn-disable-bg         : #e6e6e6;
+$btn-disable-border     : #bebebe;
+
+
+$btn-padding-base       : 6px 12px;
+
+$btn-font-size-lg       : 16px;
+$btn-padding-lg         : 8px 16px;
+$btn-padding-sm         : 1px 7px;
+$btn-font-size-sm         : 12px;
+
+$btn-circle-size        : 34px;
+$btn-circle-size-lg     : 39px;
+$btn-circle-size-sm     : 22px;
+
+// ----------------------------- Box ----------------------------------
+$box-bg: #fff;
+$box-header-h: 64px;
+$box-header-border: 1px solid #ccc;
+$box-header-font: 20px;
+
+$box-content-padding: 0 24px;
+
+// ------------------------------  CheckBox ---------------------------------
+$checkbox-default-color: #333;
+$checkbox-active-color: $primary-color;
+
+// ------------------------------  Radio ---------------------------------
+$radio-default-color: #666;
+$radio-active-color: $primary-color;
+$radio-disable-color: #ababaf;
+
+$radio-group-color: $primary-color;
+$radio-group-bg: #fff;
+$radio-group-active-bg: $primary-color;
+$radio-group-active-color: #fff;
+$radio-group-border-color: $primary-color;
+
+// ------------------------------  Switch ---------------------------------
+$switch-width: 44px;
+$switch-height: 22px;
+$switch-border: #ccc;
+$switch-bg: #ccc;
+$switch-active-bg: $primary-color;
+$switch-active-border: $primary-color;
+
+// ------------------------------  Select ---------------------------------
+$select-li-h: 34px;
+$select-txt-size: 14px;
+$select-txt-color: #1a1a1a;
+$select-txt-hover-color: #fff;
+$select-txt-active-color: #fff;
+$select-bg-color: #f0f2f5;
+$select-bg-hover-color: $primary-color;
+$select-bg-active-color: $primary-color;
+
+$select-dropdown-border: $primary-color;
+$select-dropdown-bg: #fff;
+
+$select-tag-bgc: #fff;
+
+// ------------------------------  Input ---------------------------------
+$input-border-color: #8c8c8c;
+$input-border-active-color: #008aec;
+$input-placeholder-color: #808080;
+$input-placehodler-style: italic;
+
+
+// ------------------------------  Tag  ---------------------------------
+$tag-bgc: #e6e6e6;
+$tag-color: #666464;
+$tag-border: $tag-color;
+
+// ------------------------------  Pagintaion  ---------------------------------
+$page-color: $primary-color;
+$page-active-color: #fff;
+$page-padding: 6px 10px;
+$page-bgc: #fff;
+$page-active-bgc: $primary-color;
+
+// ------------------------------  Alert  ---------------------------------
+$success-bg: #f3faf0;
+$success-border: #e7f6e1;
+
+$info-bg: #eaf8fe;
+$info-border: #d5f1fd;
+
+$warning-bg: #fff7e6;
+$warning-border: #fec;
+
+$error-bg: #ffeee6;
+$error-border: #fdc;
+
+// ------------------------------  Table  ---------------------------------
+$table-border: #ddd;
+$table-bgc: transparent;
+$table-header-padding: 8px;
+$table-body-padding: 8px;
+$tr-hover-color: #f5f5f5;
+
+// ------------------------------  Table  ---------------------------------
+$sidebar-active-c: $primary-color;
+$sidebar-hover-c: #bfbfbf;
+$sidebar-bg-c: #fff;
+$sidebar-txt-c: #666;
+$sidebar-li-h: 40px;
+// Media queries breakpoints
+// Extra small screen / phone
+// @screen-xs              : 480px;
+// @screen-xs-min          : @screen-xs;
+// @screen-xs-max          : (@screen-xs-min - 1);
+
+// // Small screen / tablet
+// @screen-sm              : 768px;
+// @screen-sm-min          : @screen-sm;
+// @screen-sm-max          : (@screen-sm-min - 1);
+
+// // Medium screen / desktop
+// @screen-md              : 992px;
+// @screen-md-min          : @screen-md;
+// @screen-md-max          : (@screen-md-min - 1);
+
+// // Large screen / wide desktop
+// @screen-lg              : 1200px;
+// @screen-lg-min          : @screen-lg;
+// @screen-lg-max          : (@screen-lg-min - 1);
+
+// // Layout and Grid system
+// @grid-columns           : 24;
+// @grid-gutter-width      : 0;
+
+// // Container sizes
+// @container-sm           : (720px + @grid-gutter-width);
+// @container-md           : (940px + @grid-gutter-width);
+// @container-lg           : (1140px + @grid-gutter-width);
+
+// // z-index list
+// @zindex-affix           : 10;
+// @zindex-modal-mask      : 990;
+// @zindex-modal           : 1000;
+// @zindex-notification    : 1010;
+// @zindex-message         : 1010;
+// @zindex-popover         : 1030;
+// @zindex-picker          : 1050;
+// @zindex-dropdown        : 1050;
+// @zindex-tooltip         : 1060;
+
+// Form
+// --------------------------------
+// Legend
+// @legend-color                : #999;
+// @legend-border-color         : @border-color-base;
+// // Label
+// @label-required-color        : #f50;
+// @label-color                 : @text-color;
+// // Input
+// @input-height-base: 28px;
+// @input-height-lg: 32px;
+// @input-height-sm: 22px;
+
+// @input-padding-horizontal    : 7px;
+// @input-padding-vertical-base : 4px;
+// @input-padding-vertical-sm   : 1px;
+// @input-padding-vertical-lg   : 6px;
+
+// @input-placeholder-color     : #ccc;
+// @input-color                 : @text-color;
+// @input-border-color          : @border-color-base;
+// @input-bg                    : #fff;
+
+// @input-hover-border-color    : @primary-color;
+// @input-focus-border-color    : @primary-color;
+// @input-disabled-bg           : #f7f7f7;
+
+// @form-item-margin-bottom     : 24px;

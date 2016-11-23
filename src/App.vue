@@ -7,6 +7,7 @@
         </div>
       </el-col>
     </el-row>
+
     <el-row>
       <el-col :span="3">
         <div class="grid-content"> 
@@ -15,8 +16,7 @@
       </el-col>
       <el-col :span="21">
         <div class="grid-content"> 
-        <p>{{total}}</p>
-          <contentbody v-on:increment="incrementTotal"></contentbody>
+          <contentbody v-on:increment="incrementTotal" ></contentbody>
         </div>
       </el-col>
     </el-row>
@@ -54,7 +54,9 @@ export default {
 <style>
 body{
   margin: 0;
+  background-color: #eeeff4;
 }
+
 .content{
   padding: 10px;
 }
