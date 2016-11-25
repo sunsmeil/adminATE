@@ -20,6 +20,6 @@ p{
 }
 .nav{
   height: 10%;
-  background-color: #20A0FF;
+  background-color: #20a0ff;
 }
 </style>

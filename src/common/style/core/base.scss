@@ -1,0 +1,90 @@
+@import '../theme/default';
+
+body{
+	background-color: $body-bg;
+}
+*{
+	box-sizing: border-box;
+}
+
+@mixin clearfix{
+	zoom: 1;
+		&:before,
+		&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+		visibility: hidden;
+		font-size: 0;
+		height: 0;
+	}
+}
+
+@mixin link-colors($normal,
+	$visited: $normal, 
+	$hover: $normal, 
+	$active: $normal){
+	color: $normal;
+	&:link,&:visited{ color: $normal;}
+	&.active{ color: $visited; }
+	&:hover{ color: $hover; }
+	&:active{ color: $active;}
+}
+
+@mixin link-bg-colors($normal,
+	$visited: $normal, 
+	$hover: $normal, 
+	$active: $normal){
+	background-color: $normal;
+	&:link,&:visited{ background-color: $normal;}
+	&.active{ background-color: $visited; }
+	&:hover{ background-color: $hover; }
+	&:active{ background-color: $active; }
+}
+
+@mixin transition($tran){
+	-webkit-transition: $tran;
+    transition: $tran;
+}
+@mixin transform($tran){
+	-webkit-transform: $tran;
+    transform: $tran;
+}
+
+@mixin text-overflow-hidden{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin user-select-none{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@mixin border-left-radius($radius){
+	border-top-left-radius:$radius;
+	border-bottom-left-radius:$radius;
+}
+@mixin border-right-radius($radius){
+	border-top-right-radius:$radius;
+	border-bottom-right-radius:$radius;
+}
+
+@mixin iconfont{
+	font-family:"iconfont" !important;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin disabled{
+	cursor: $cursor-disabled ;
+	opacity: 0.37;
+	color: $radio-disable-color;
+}

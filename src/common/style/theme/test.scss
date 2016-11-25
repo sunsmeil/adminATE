@@ -1,0 +1,14 @@
+.test{
+	position: relative;
+}
+
+.test:after{
+	display: inline-block;
+	content:'';
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+	top:-5px;
+	right:-5px;
+}
