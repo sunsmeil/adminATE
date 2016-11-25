@@ -2,7 +2,11 @@
   <div class="sidebar">
     <el-row>
       <el-col :span="24">
+<<<<<<< HEAD
         <el-menu mode="vertical" default-active="add" class="el-menu-vertical"  @open="handleOpen" @close="handleClose">
+=======
+        <el-menu mode="vertical" default-active="add" class="el-menu-vertical-demo"  theme="dark" @open="handleOpen" @close="handleClose">
+>>>>>>> 949e5566c616af89f7bbc67e3e31bc3e3781f12d
           <el-submenu index="1">
             <template slot="title">广告位管理</template>
               <el-menu-item index="1">常规广告位</el-menu-item>
@@ -20,11 +24,14 @@
 
 <script>
 export default {
+<<<<<<< HEAD
   data(){
     return{
 
     }
   },
+=======
+>>>>>>> 949e5566c616af89f7bbc67e3e31bc3e3781f12d
   methods: {
     handleOpen(key, keyPath) {
       console.log(key, keyPath);
@@ -38,11 +45,17 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../common/style/index";
+<<<<<<< HEAD
 .el-menu-vertical{
   min-height: 1280px;
   max-width: 194px;
   background-color: $menu-bg;
   overflow: hidden;
+=======
+.el-menu-vertical-demo{
+  min-height: 1280px;
+  max-width: 194px;
+>>>>>>> 949e5566c616af89f7bbc67e3e31bc3e3781f12d
 }
 .el-menu-item:hover{
   border-left: 5px solid #20a0ff;
