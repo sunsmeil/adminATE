@@ -10,7 +10,7 @@
                <logo></logo>
             </div>
           </el-col>
-          <el-col :span="10">
+          <el-col :span="9" style="margin-left: 30px;">
             <el-menu default-active="3" class="el-menu-demo" mode="horizontal" @select="handleSelect">
               <el-menu-item index="3">管理</el-menu-item>
               <el-menu-item index="4">数据报告</el-menu-item>
@@ -38,11 +38,9 @@
 </template>
 
 <script>
-import Navmenu from './Nav'
 import Logo from './Logo'
 export default {
   components: {
-    Navmenu,
     Logo
   },
   props:['msg'],

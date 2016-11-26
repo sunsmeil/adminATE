@@ -8,8 +8,7 @@
  * }
  */
 export const AjaxPost = function ( cfg ) {
-
-
+  console.log()
   //请求成功回调
   let successCallback = (response) => {
     let jsondata = {};
@@ -24,17 +23,17 @@ export const AjaxPost = function ( cfg ) {
       console.log(e, 'Json解析失败');
     }
 
-
-    if(jsondata){
+    if(jsondata&&jsondata.code==200){
       cfg.onSuccess && cfg.onSuccess(jsondata);
+    }else {
+      cfg.onError && cfg.onError(jsondata);
     }
   }
 
   let errorCallback = (json)=> {
-    console.log(json);
-    cfg.onError && cfg.onError;
+    cfg.onError && cfg.onError(json);
   }
-   // console.log(ENV_OPT.baseApi)
-  cfg.self.$http.post( cfg.api , cfg.data )
+
+  cfg.self.$http.post( ENV_OPT.baseApi + cfg.api , cfg.data )
       .then(successCallback, errorCallback);
 }

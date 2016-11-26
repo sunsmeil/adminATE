@@ -1,7 +1,8 @@
 {
-  "name": "dsp",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "DSP",
+  "version": "1.0.1",
+  "description": "DSP AD platform",
+  "author": "Moxiu",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -10,10 +11,16 @@
     "build:prod": "NODE_ENV=production node build/build.js"
   },
   "dependencies": {
+    "echarts": "^3.2.3",
     "element-ui": "^1.0.2",
+    "http-proxy-middleware": "^0.17.2",
     "node-sass": "^3.10.1",
+    "normalize.css": "^5.0.0",
     "sass-loader": "^4.0.2",
-    "vue": "^2.0.1"
+    "vue": "^2.0.3",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.0.1",
+    "vuex": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

@@ -14,7 +14,7 @@ module.exports = {
   // tmpl: 'index.html',
   //调试入口文件，只包括一个页面内容
   entry: {
-    index: './src/main.js',
+    index: './src/views/adsList/adsList.js',
   },
   //配置proxy跨域
   proxyTable: {
